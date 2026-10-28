@@ -1,0 +1,9 @@
+
+smipcie-objs	:= smipcie-main.o smipcie-ir.o
+
+obj-$(CONFIG_DVB_SMIPCIE) += smipcie.o
+
+ccflags-y += -I $(srctree)/drivers/media/tuners
+ccflags-y += -I $(srctree)/drivers/media/dvb-core
+ccflags-y += -I $(srctree)/drivers/media/dvb-frontends
+

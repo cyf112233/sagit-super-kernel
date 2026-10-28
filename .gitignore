@@ -1,0 +1,18 @@
+# build outputs
+kernel/out-build/
+kernel/out-cip115-susfs/
+out-bakasu/
+*.o
+*.o.*
+.*.cmd
+*.ko
+*.mod.c
+.tmp_*
+*.7z
+*.zip
+!ak3/**/*.zip
+
+# patch/build leftovers
+*.orig
+*.rej
+.*.cmd
